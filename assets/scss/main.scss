@@ -5,6 +5,7 @@
 }
 $primaryColor : #46A358;
 $fontColor: #3D3D3D;
+$bcollor: rgba(245, 245, 245, 0.5);
 .box{
     display: flex;
     flex-direction: column;
@@ -56,7 +57,7 @@ $fontColor: #3D3D3D;
 .sliders{
     width: 1200px;
     height: 450px;
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: $bcollor;
     .sliderBox{
         display: flex;
         flex-direction: row;
@@ -109,3 +110,25 @@ $fontColor: #3D3D3D;
     }
 }
 // SLIDER PAGE END-------------------------------------------------------
+// PLANTS PAGE START------------------------------------------------------
+#plants {
+    width: 1200px;
+    .plant-left{
+        width: 310px;
+        height: 774px;
+        background-color: $bcollor;
+        h3{
+            margin: 10px;
+        }
+        li{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 270px;
+            margin: 0 auto;
+            color: $fontColor;
+            
+        }
+    }
+}
+// PLANTS PAGE END--------------------------------------------------------

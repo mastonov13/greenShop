@@ -102,4 +102,24 @@
   position: absolute;
   bottom: 70px;
   left: 120px;
+}
+
+#plants {
+  width: 1200px;
+}
+#plants .plant-left {
+  width: 310px;
+  height: 774px;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+#plants .plant-left h3 {
+  margin: 10px;
+}
+#plants .plant-left li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  margin: 0 auto;
+  color: #3D3D3D;
 }/*# sourceMappingURL=main.css.map */
