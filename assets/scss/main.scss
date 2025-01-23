@@ -113,6 +113,11 @@ $bcollor: rgba(245, 245, 245, 0.5);
 // PLANTS PAGE START------------------------------------------------------
 #plants {
     width: 1200px;
+    height: 1244px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
     .plant-left{
         width: 310px;
         height: 774px;
@@ -128,6 +133,57 @@ $bcollor: rgba(245, 245, 245, 0.5);
             margin: 0 auto;
             color: $fontColor;
             
+        }
+    }
+    .plant-right{
+        width: 840px;
+        height: 1244px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .right-top{
+            display: flex;
+            flex-direction: row;
+            width: 838px;
+            height: 23px;
+            background-color: $bcollor;
+            ul 
+                li{
+                    list-style: none;
+                    display: inline;
+                    a{
+                        text-decoration: none;
+                        color: $fontColor;
+                    }
+            }
+        }
+        .right-bottom{
+            width: 840px;
+            height: 1190px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            span{
+                .bc-img{
+                    width: 258px;
+                    height: 300px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $bcollor;
+                    img{
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+                p{
+                    color: $fontColor;
+                }
+                .price-plant{
+                    color: $primaryColor;
+                }
+            }
         }
     }
 }
