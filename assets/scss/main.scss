@@ -188,3 +188,97 @@ $bcollor: rgba(245, 245, 245, 0.5);
     }
 }
 // PLANTS PAGE END--------------------------------------------------------
+// INFO CARDS START--------------------------------------------------------
+#infoCards{
+    width: 1205px;
+    height: 302px;
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 586px;
+        height: 250px;
+        background-color: $bcollor;
+        display: flex;justify-content: space-between;
+        .info-cards-img{
+            position: relative;
+            img{
+                position: absolute;
+                bottom: 10px;
+                width: 292px;
+                height: 292px;
+            }
+        }
+        .info-cards-content{
+            display: flex;
+            flex-direction: column;
+            text-align: end;
+            align-items: end;
+            justify-content: space-evenly;
+            height: 200px;
+            padding-right: 30px;
+            margin: auto 0;
+            button{
+                background-color: $primaryColor;
+                color: #fff;
+                width: 140px;
+                height: 40px;
+                border-radius: 10px;
+                border: none;
+            }
+        }
+    }
+}
+// info cards end ---------------------------------------------------
+// OUR BLOCK POSTS START -------------------------------------------
+#ourBlockPosts {
+    display: flex;
+    width: 1202px;
+    height: 447px;
+    flex-direction: column;
+    justify-content: space-between;
+    .postContent {
+        text-align: center;
+    }
+    .ourBPcards {
+        display: flex;
+        width: 1202px;
+        justify-content: space-between;
+        span{
+            img{
+                width: 268px;
+                height: 195.17px;
+            }
+            .cardBPtext {
+                width: 268px;
+                height: 167px;
+                background-color: $bcollor;
+                opacity: 0.8;
+                padding: 10.5px 13px ;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-size: 14px;
+                p:first-of-type{
+                    color: $primaryColor;
+                }
+                p{
+                    color: $fontColor;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        color: black;
+                    }
+                    i{
+                        padding-left: 10px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+// OUR BLOCK POSTS END ----------------------------------------------
