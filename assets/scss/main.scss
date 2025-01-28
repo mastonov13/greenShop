@@ -282,3 +282,16 @@ $bcollor: rgba(245, 245, 245, 0.5);
     }
 }
 // OUR BLOCK POSTS END ----------------------------------------------
+// GREEN LINE=============
+#greeLine{
+    position: relative;
+    div{
+        width: 1200px;
+        height: 88px;
+        background-color: rgba(70, 163, 88, 0.1);
+        position: absolute;
+        right: -360px;
+        top: -48px;
+    }
+    
+}

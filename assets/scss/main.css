@@ -266,4 +266,16 @@
 #ourBlockPosts .ourBPcards span .cardBPtext a i {
   padding-left: 10px;
   font-size: 14px;
+}
+
+#greeLine {
+  position: relative;
+}
+#greeLine div {
+  width: 1200px;
+  height: 88px;
+  background-color: rgba(70, 163, 88, 0.1);
+  position: absolute;
+  right: -360px;
+  top: -48px;
 }/*# sourceMappingURL=main.css.map */
