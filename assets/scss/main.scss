@@ -295,3 +295,62 @@ $bcollor: rgba(245, 245, 245, 0.5);
     }
     
 }
+
+// join start----------------------------------------------------------
+#joinNews {
+    width: 1200px;
+    height: 250px;
+    background-color: $bcollor;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    #vertical{
+        height: 187px;
+        width: 1px;
+        background-color: #46A358;
+        border: solid 1px black;
+        
+    span{
+        width: 204px;
+        height: 201px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            width: 204px;
+        }
+        .imgArena{
+            width: 87px;
+            height: 87px;
+            position: relative;
+            
+            .srcile{
+                width: 74px;
+                height: 74px;
+                border-radius: 50%;
+                background-color: rgba(70, 163, 88, 0.13);
+                position: absolute;
+        
+            }
+            .f1{ 
+                img{
+                    position: absolute;
+                    left: 15px;
+                    top: -18px;
+                    z-index: 1;
+                }
+            }
+            .f2{
+                img{
+                    position: absolute;
+                    left: 15px;
+                    top: 20px;
+                    
+                }
+            }
+        
+        }
+    }
+}
+}
