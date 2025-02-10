@@ -288,43 +288,107 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
 }
 #joinNews #vertical {
   height: 187px;
   width: 1px;
   background-color: #46A358;
-  border: solid 1px black;
+  border: solid 1px rgb(145, 145, 145);
 }
-#joinNews #vertical span {
+#joinNews span {
   width: 204px;
   height: 201px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-#joinNews #vertical span p {
+#joinNews span p {
   width: 204px;
 }
-#joinNews #vertical span .imgArena {
+#joinNews span .imgArena {
   width: 87px;
   height: 87px;
   position: relative;
 }
-#joinNews #vertical span .imgArena .srcile {
+#joinNews span .imgArena .srcile {
   width: 74px;
   height: 74px;
   border-radius: 50%;
   background-color: rgba(70, 163, 88, 0.13);
   position: absolute;
 }
-#joinNews #vertical span .imgArena .f1 img {
+#joinNews span .imgArena .f1 img {
   position: absolute;
   left: 15px;
   top: -18px;
   z-index: 1;
 }
-#joinNews #vertical span .imgArena .f2 img {
+#joinNews span .imgArena .f2 img {
   position: absolute;
   left: 15px;
   top: 24px;
+}
+#joinNews span .imgArena .f3 img {
+  position: absolute;
+  left: 10px;
+  top: -15px;
+}
+#joinNews .joinIn {
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#joinNews .joinIn div {
+  width: 354px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  border: none;
+}
+#joinNews .joinIn div #submit {
+  width: 85px;
+  height: 40px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #46A358;
+  color: #fff;
+}
+#joinNews .joinIn div #emailin {
+  width: 269px;
+  height: 40px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #fff;
+  padding-left: 20px;
+}
+#joinNews .joinIn p {
+  color: #3D3D3D;
+  width: 354px;
+}
+
+#contactsBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  height: 50px;
+  justify-content: space-evenly;
+  position: relative;
+  left: -120px;
+}
+#contactsBox .con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#contactsBox .con img {
+  margin-right: 10px;
+}
+#contactsBox .location p {
+  width: 179px;
 }/*# sourceMappingURL=main.css.map */

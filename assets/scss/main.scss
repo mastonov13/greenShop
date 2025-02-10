@@ -305,12 +305,13 @@ $bcollor: rgba(245, 245, 245, 0.5);
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     #vertical{
         height: 187px;
         width: 1px;
         background-color: #46A358;
-        border: solid 1px black;
-        
+        border: solid 1px rgb(145, 145, 145);
+    }
     span{
         width: 204px;
         height: 201px;
@@ -345,12 +346,78 @@ $bcollor: rgba(245, 245, 245, 0.5);
                 img{
                     position: absolute;
                     left: 15px;
-                    top: 20px;
-                    
+                    top: 24px;                    
                 }
             }
-        
+            .f3{
+                img{
+                    position: absolute;
+                    left: 10px;
+                    top: -15px;   
+            }
         }
     }
 }
+    .joinIn{
+        height: 201px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        div{
+            width: 354px;
+            height: 40px;display: flex;
+            flex-direction: row;
+            margin: 0;
+            border: none;
+            #submit{
+                width: 85px;
+                height: 40px;
+                border: none;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                background-color: $primaryColor;
+                color: #fff;
+            }
+            #emailin{
+                width: 269px;
+                height: 40px;
+                border: none;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                color: #fff;
+                padding-left: 20px;
+            }
+        }
+        p{
+            color: $fontColor;
+            width: 354px;
+        }
+    }
+}
+
+// contacts page start =======================================================
+
+#contactsBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    height: 50px;
+    justify-content: space-evenly;
+    position: relative;
+    left: -120px;
+    .con{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img{
+            margin-right: 10px;
+        }
+    }
+    .location{
+        p{
+            width: 179px;
+        }
+    }
 }
